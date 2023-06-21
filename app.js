@@ -8,7 +8,7 @@ app.use(cors({origin: "*"}))
 
 app.use('/animes', rotaAnime)
 
-const port = 8000
+const port = '8000'
 
 app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)
