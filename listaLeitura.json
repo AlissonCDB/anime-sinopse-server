@@ -1,0 +1,42 @@
+[
+    {
+        "Obra": "Made In Abyss",
+        "Volume": "1",
+        "Imagem": "https://m.media-amazon.com/images/I/91N8saM4HdL._AC_UF1000,1000_QL80_.jpg",
+        "Link": "",
+        "Capitulo": "Completo",
+        "Genero": "Mangas"
+    },
+    {
+        "Obra": "A Garota do Lago",
+        "Volume": "Único",
+        "Imagem": "https://hotmart.s3.amazonaws.com/product_pictures/9d3ecd7c-e391-4ab1-b80d-afcda13bfcbb/81LRk6p1HL.jpg",
+        "Link": "",
+        "Capitulo": "5",
+        "Genero": "Livros"
+    },
+    {
+        "Obra": "Sword Art Online",
+        "Volume": "1",
+        "Imagem": "https://m.media-amazon.com/images/I/510bR7SazLL.jpg",
+        "Link": "",
+        "Capitulo": "Completo",
+        "Genero": "Novels"
+    },
+    {
+        "Obra": "Sword Art Online",
+        "Volume": "1",
+        "Imagem": "https://m.media-amazon.com/images/I/510bR7SazLL.jpg",
+        "Link": "",
+        "Capitulo": "Completo",
+        "Genero": "Novels"
+    },
+    {
+        "Obra": "Infinite Mage",
+        "Volume": "1",
+        "Imagem": "https://img.mangaschan.com/uploads/manga-images/i/infinite-mage/thumbnail.jpg",
+        "Link": "",
+        "Capitulo": "40",
+        "Genero": "Manhwa"
+    }
+]
