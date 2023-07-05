@@ -4,6 +4,7 @@
     {
       "src": "/(.*)",
       "dest": "/$1",
+      "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
@@ -11,38 +12,12 @@
       }
     }
   ],
-  "builds": [
-    {
-      "src": "controladores/**",
-      "use": "@vercel/static"
+  "functions": {
+    "api/animes.js": {
+      "maxDuration": 10
     },
-    {
-      "src": "rotas/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "servicos/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "animes.json",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "app.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "listaLeitura.json",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "package-lock.json",
-      "use": "@vercel/static"
+    "api/listaLeitura.js": {
+      "maxDuration": 10
     }
-  ]
+  }
 }
