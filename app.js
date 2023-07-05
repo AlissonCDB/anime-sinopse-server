@@ -5,7 +5,12 @@ const rotaLivro = require("./rotas/listaLeitura")
 
 const app = express()
 app.use(express.json())
-app.use(cors({origin: "*"}))
+
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*")
+    app.use(cors());
+    next()
+})
 
 app.use('/animes', rotaAnime)
 app.use('/listaLeitura', rotaLivro)
