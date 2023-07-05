@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cors({origin: "*", methods: "GET,POST"}))
 
 app.use('/animes', rotaAnime)
-app.use('/listaLeitura.json', rotaLivro)
+app.use('/listaLeitura', rotaLivro)
 
 const port = '80'
 
