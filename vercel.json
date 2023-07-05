@@ -27,7 +27,7 @@
     },
     {
       "src": "animes.json",
-      "use": "@vercel/node"
+      "use": "@vercel/static"
     },
     {
       "src": "app.js",
@@ -35,7 +35,7 @@
     },
     {
       "src": "listaLeitura.json",
-      "use": "@vercel/node"
+      "use": "@vercel/static"
     },
     {
       "src": "package.json",
