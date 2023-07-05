@@ -4,6 +4,6 @@ const router = Router()
 
 router.get('/', getLivros)
 
-router.post('/', postLivro)
+router.post('/listaLeitura.json', postLivro)
 
 module.exports = router
