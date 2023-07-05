@@ -15,15 +15,15 @@
   "builds": [
     {
       "src": "controladores/**",
-      "use": "@vercel/static"
+      "use": "@vercel/node"
     },
     {
       "src": "rotas/**",
-      "use": "@vercel/static"
+      "use": "@vercel/node"
     },
     {
       "src": "servicos/**",
-      "use": "@vercel/static"
+      "use": "@vercel/node"
     },
     {
       "src": "animes.json",
