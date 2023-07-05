@@ -10,7 +10,7 @@ app.use(cors({origin: "*", methods: "GET,POST"}))
 app.use('/animes', rotaAnime)
 app.use('/listaLeitura', rotaLivro)
 
-const port = '8000'
+const port = '80'
 
 app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)
