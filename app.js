@@ -6,9 +6,8 @@ const rotaLivro = require('./rotas/listaLeitura');
 const app = express();
 const port = 8000;
 
-app.use(express.json());
-
 app.use(cors({ origin: 'http://localhost:3000', methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'] }));
+app.use(express.json());
 
 app.use('/animes', rotaAnime);
 app.use('/listaLeitura', rotaLivro);
